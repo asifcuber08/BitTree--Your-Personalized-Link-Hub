@@ -22,8 +22,8 @@ const Navbar = () => {
         </div>
 
         <div className='flex gap-3'>
-            <button className='login bg-gray-400 p-4 rounded-lg font-bold'>Log in</button>
-            <button className='signup bg-gray-900 p-4 text-white font-bold rounded-full'>Sign up free</button>
+            <Link href="https://github.com/asifcuber08"> <button className='login cursor-pointer bg-gray-400 p-4 rounded-lg font-bold'>GitHub</button> </Link>
+            <button className='signup cursor-pointer bg-gray-900 p-4 text-white font-bold rounded-full'>Demo Button</button>
         </div>
     </nav>}</>
   )

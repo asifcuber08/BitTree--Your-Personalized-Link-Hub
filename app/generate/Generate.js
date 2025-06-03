@@ -63,7 +63,7 @@ const Generate = () => {
 
         console.log(raw)
 
-        const r = await fetch("http://localhost:3000/api/add", requestOptions)
+        const r = await fetch("/api/add", requestOptions)
         const result = await r.json()
         if (result.success) {
             toast.success(result.message)
@@ -113,7 +113,7 @@ const Generate = () => {
 
                         <h2 className='font-semibold text-2 xl'>Step 3: Add Picture and Description</h2>
                         <div className='mx-4 flex flex-col'>
-                            <input value={pic || ""} onChange={e => { setpic(e.target.value) }} className='bg-white px-4 py-2 mx-2 my-2 focus:outline-pink-500 rounded-full' type="text" placeholder='Enter link to your Picture' />
+                            <input value={pic || ""} onChange={e => { setpic(e.target.value) }} className='bg-white px-4 py-2 mx-2 my-2 focus:outline-pink-500 rounded-full' type="text" placeholder='Enter link of your Picture' />
                             <input value={desc || ""} onChange={e => { setdesc(e.target.value) }} className='bg-white px-4 py-2 mx-2 my-2 focus:outline-pink-500 rounded-full' type="text" placeholder='Enter Description' />
                             <button disabled={pic === "" || handle === "" || links[0].linktext === ""} onClick={async() => { await submitLinks(); createlinks(); }} className='disabled:bg-slate-500 p-5 py-2 mx-2 w-fit my-5 bg-slate-900 text-white font-bold rounded-3xl cursor-pointer'>Create your BitTree</button>
                         </div>

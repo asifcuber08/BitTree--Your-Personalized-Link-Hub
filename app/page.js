@@ -26,7 +26,7 @@ export default function Home() {
 
           <div className="input flex gap-2">
             <input value={text} onChange={(e)=> setText(e.target.value)} className="px-2 py-2 bg-white focus:outline-green-800 rounded-md" type="text" placeholder="Enter your Handle" />
-            <button onClick={()=> createTree()} className="bg-pink-300 rounded-full px-4 py-4 font-semibold">Claim your Bittree</button>
+            <button onClick={()=> createTree()} className="bg-pink-300 cursor-pointer rounded-full px-4 py-4 font-semibold">Claim your Bittree</button>
           </div>
         </div>
         <div className="flex items-center justify-center flex-col mr-[10vw]">
