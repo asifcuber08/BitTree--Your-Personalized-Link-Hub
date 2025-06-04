@@ -13,11 +13,10 @@ const Navbar = () => {
              </Link>
 
              <ul className='flex gap-10'>
-                <Link href="/"> <li>Templates</li> </Link>
-                <Link href="/"> <li>Marketplace</li> </Link>
-                <Link href="/"> <li>Discover</li> </Link>
-                <Link href="/"> <li>Pricing</li> </Link>
-                <Link href="/"> <li>Learn</li> </Link>
+                <Link href="https://linktr.ee/s/templates"> <li>Templates</li> </Link>
+                <Link href="https://linktr.ee/marketplace"> <li>Marketplace</li> </Link>
+                <Link href="https://linktr.ee/s/pricing"> <li>Pricing</li> </Link>
+                <Link href="https://linktr.ee/blog"> <li>Blog</li> </Link>
              </ul>
         </div>
 
