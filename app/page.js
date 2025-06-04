@@ -34,9 +34,7 @@ export default function Home() {
         </div>
 
       </section>
-      <section className="bg-red-700 min-h-[100vh]">
-
-      </section> 
+      
     </main>
   );
 }
