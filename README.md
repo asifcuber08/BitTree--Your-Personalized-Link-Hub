@@ -1,46 +1,54 @@
-# This is a [Next.js](https://nextjs.org) project 
+# 🌳 BitTree – Linktree Clone with React & Next.js
 
-## How to Run
+**BitTree** is a modern and responsive **Linktree clone** built using **React** and **Next.js**. It allows users to create a personalized landing page to showcase and share all their important links in one place — ideal for creators, influencers, professionals, and anyone who wants a clean digital presence.
 
-First, Install the node module, type this in your terminal:
+---
+
+## 🚀 Features
+
+- ✨ Beautiful and minimal user interface
+- ➕ Add, edit, and remove custom links
+- 🧑 Personalized profile with bio
+- ⚡ Built with Next.js for fast performance and SEO
+- 🎨 Styled with Tailwind CSS for easy customization
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework:** React, Next.js
+- **Styling:** Tailwind CSS
+- **Icons:** React Icons or similar
+- **State Management:** useState, useEffect (React Hooks)
+- **Deployment:** Vercel
+
+---
+
+## 📦 Installation
+1. Clone the repository to your local machine using:
 
 ```bash
-npm install
+git clone https://github.com/asifcuber08/BitTree--Your-Personalized-Link-Hub
 ```
+ Replace `your-username` with your GitHub username.
 
-Second, type this to start your server:
+2. Navigate to the project directory:
 
-```bash
-npm run dev
-```
+   ```bash
+   cd BitTree--Your-Personalized-Link-Hub
+   ```
 
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the development server:
+    ```bash
+    npm run dev
+   ```
+    Open http://localhost:3000 to view it in your browser.
 
-## Connect to Mongodb
+## 🙋‍♂️ Author
+Name: **Asif Shamim**
 
-To connect to mongodb, don't forget to create `.env.local` file and on that file you have to type
-
-```bash
-MONGODB_URI=your mongodb uri
-
-
-NEXT_PUBLIC_HOST=http://localhost:3000
-```
-
-
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - to know more about Next.js
-
-
-You can also check out [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub: **[@asifcuber08](https://github.com/asifcuber08)**
